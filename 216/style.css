@@ -1,0 +1,183 @@
+body {
+	background-color: #2ed22e;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+a:hover {
+	color:blue;
+	font-weight: bolder;
+}
+
+
+.container {
+	margin:0px;
+	padding: 0;
+}
+
+.text {
+	font-family: Courier, sans-serif;
+	margin: 100px;
+	font-size:50px;
+	display: grid;
+	grid-template:
+	"evolution back";
+
+}
+.evolution{
+		z-index: 12000;
+}
+.back{
+	z-index: 12000;
+	text-align: right;
+}
+
+
+
+#snake1 {
+	position: absolute;
+	top: 0px;
+	left:0px;
+	margin:0px;
+	z-index: 200;
+	filter: contrast(3) brightness(80%);
+}
+
+#snake2 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin:0px;
+	z-index: 200;
+	filter: saturate(100);
+}
+
+#snake3 {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+	margin:0px;
+	z-index: 200;
+	filter: saturate(10);
+}
+
+#snake4 {
+	position: absolute;
+	top: 60px;
+	right: 100px;
+	margin:0px;
+	z-index: 200;
+	filter: hue-rotate(90deg);
+}
+
+#snake5 {
+	position: absolute;
+	top: 90px;
+	right: 150px;
+	margin:0px;
+	z-index: 200;
+	filter: invert(100);
+}
+
+
+#snake6 {
+	position: absolute;
+	top: 120px;
+	right: 200px;
+	margin:0px;
+	z-index: 200;
+	filter: brightness(2);
+}
+
+
+
+
+#shell {
+	position: absolute;
+	top: 0px;
+	right: 450px;
+	margin:0px;
+	z-index: 200;
+}
+
+#shell1 {
+	position: absolute;
+	top: 500px;
+	right: 300px;
+	margin:0px;
+	z-index: 200;
+
+}
+
+#shell2 {
+	position: absolute;
+	top: 700px;
+	right: 100px;
+	margin:0px;
+	z-index: 200;
+
+}
+
+#turtle {
+	
+	position: absolute;
+	top: 400px;
+	right: 300px;
+	margin:0px;
+	z-index: 300;
+}
+
+#turtle1 {
+	
+	position: absolute;
+	top: 400px;
+	left: 200px;
+	margin:0px;
+	z-index: 300;
+	filter: saturate(8);
+}
+
+
+#crystals {
+	position: absolute;
+	top: 100px;
+	right: 400px;
+	margin:0px;
+	z-index: 150;
+}
+
+
+
+#bull {
+	position: absolute;
+	top: 0px;	
+	left: 0;
+	margin:0px;
+	z-index: 100;
+	filter: invert(3);
+	opacity: 70%;
+}
+
+#teeth {
+
+	position: absolute;
+	top: 300px;
+	right: 100px;
+	margin:0px;
+	z-index: 300;
+	filter: saturate(4);
+}
+
+#lion {
+	position: absolute;
+	top: 0px;
+	right:0px;
+	margin:0px;
+	z-index: 100;
+}

@@ -1,0 +1,157 @@
+@keyframes rectangle {
+
+	0%{
+		left: 500px;
+	}
+
+	100%{
+
+		left: 200px;
+	}
+
+}
+
+@keyframes triangle {
+
+	0%{
+		left: 700px;
+	}
+
+	100%{
+
+		left: 400px;
+	}
+
+}
+
+
+@keyframes trapezoid {
+
+	0%{
+		left: 1000px;
+	}
+
+	100%{
+
+		left: 760px;
+	}
+
+}
+
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.text {
+	font-family: courier;
+	margin: 100px;
+	display: grid;
+  	grid-template: 
+    "title back"
+}
+
+.back {
+	text-align: right;
+}
+
+.image {
+	position: relative;
+}
+
+
+.name {
+	margin: 100px;
+}
+
+
+
+.photo {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+#fore {
+	border-bottom: 300px solid yellow;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 200px;
+	width: 125px;
+
+	position: absolute;
+	top: 500px;
+	left: 800px;
+
+	opacity: 40%;
+
+
+	animation-name: trapezoid;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+
+#mid {
+	width: 0;
+	height: 0;
+	border-top: 200px solid transparent;
+	border-right: 150px solid red;
+	border-bottom: 200px solid transparent;
+
+
+	position: absolute;
+	top: 500px;
+	left: 600px;
+
+	opacity: 40%;
+
+	animation-name: triangle;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+
+
+
+
+
+#back {
+	height: 350px;
+  width: 100px;
+  background-color: blue;
+
+
+  position: absolute;
+	top: 500px;
+	left: 450px;
+	opacity: 40%;
+
+	animation-name: rectangle;
+	animation-duration: 2s;
+	animation-timing-function: ease-in;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+
+
+

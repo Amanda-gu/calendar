@@ -1,0 +1,77 @@
+body {
+	background-color: darkblue;
+	color: black;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+a:hover {
+	color: white;
+}
+
+
+@media (max-width:670px) {
+
+	span.text {
+		font-size: 15px;
+	}
+	span.back {
+		font-size: 15px;}
+	a.youtubelink {
+		font-size: 50px;
+		margin-top: 100px;
+	}
+
+}
+
+.bw {
+	filter: grayscale(100%);
+}
+
+.bewhyimg {
+z-index: 1000;
+}
+
+
+
+.bewhy {
+	margin: 50px;
+	font-size: 200px;
+	font-family: Akezidenz Grotesk, sans-serif;
+	font-weight: bolder;
+
+	display: grid;
+  	grid-template: 
+    "youtubelink text back"
+
+
+}
+.text {
+	margin: 100px;
+	font-size: 25px;
+	font-family: Akezidenz Grotesk, sans-serif;
+	font-weight: bolder;
+}
+
+.back {
+	text-decoration: underline;
+	margin-top: 100px;
+	font-size: 25px;
+	font-family: Akezidenz Grotesk, sans-serif;
+	font-weight: bolder;
+}
+
+.bewhyimg {
+	position: sticky;
+	top: 0;
+}
+
+img {
+	margin: 13px;
+}

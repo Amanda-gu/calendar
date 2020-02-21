@@ -1,0 +1,410 @@
+body {
+	background-color: #e5e4e2;
+}
+
+
+.container {
+  margin: 0;
+  padding: 0;
+  color: #1b03a3;
+
+}
+
+/* div.fri::after {
+    content: '.';
+    font-size:90px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+div#F::after {
+    content: '.';
+    font-size:90px;
+    font-weight: bold;
+    width: 10px;
+    height: 10px;
+    margin-left: 0px;
+    border-radius: 100%;
+    display: inline-block;
+}*/
+
+@media (max-width:670px) {
+  body {background-color: #8b008b;}
+  div#grid{font-size:25px;
+          color: white;
+          height:400px;}
+  div.fri {color: #eecee9;}
+  div#grid{display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+        grid-template-rows: repeat(auto-fill,  minmax(30px, 1fr));
+        margin: 25px;
+        color:white;}
+  div.month{font-size: 50px;
+            color:#eecee9;
+            margin: 25px;}
+  div#M{ color: #eecee9; }
+  div#T{ color: #eecee9; }
+  div#W{ color: #eecee9; }
+  div#TR{ color: #eecee9; }
+  div#F{ color: #eecee9; }
+  div#SA{ color: #eecee9; }
+  div#S{ color: #eecee9; }
+  div.nextmonth { margin: 70px;
+                  color:#eecee9; }
+  a {color: white;}
+  a:hover { color: #071827; }
+  div.fri::after {
+    content: '.';
+    font-size:20px;
+    font-weight: bold;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+div#F::after {
+    content: '.';
+    font-size:20px;
+    font-weight: bold;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    border-radius: 100%;
+    display: inline-block;
+}
+}
+
+
+@media (min-width:670px) and (max-width: 1200px) {
+  body {background-color: #b95754;}
+  div#grid{font-size:55px;
+          color: white;
+          height: 700px;}
+  div.fri {color: #f5deb3;}
+  div#grid{display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-template-rows: repeat(auto-fill,  minmax(54px, 1fr));
+  margin: 60px;
+  color:#e8d7bc;}
+  div.month{font-size: 70px;
+            color:#f5deb3;
+            margin: 60px;}
+  div#M{ color: #f5deb3; }
+  div#T{ color: #f5deb3; }
+  div#W{ color: #f5deb3; }
+  div#TR{ color: #f5deb3; }
+  div#F{ color: #f5deb3; }
+  div#SA{ color: #f5deb3; }
+  div#S{ color: #f5deb3; }
+  div.nextmonth { margin: 100px;
+                  color:#f5deb3; }
+  a {color: #e8d7bc;}
+  a:hover { color: black; }
+
+    div.fri::after {
+    content: '.';
+    font-size:45px;
+    font-weight: bold;
+     width: 0;
+    height: 0;
+    margin-left: 0px;
+    border-radius: 50%;
+    display: inline-block;
+    }
+    div#F::after {
+    content: '.';
+    font-size:45px;
+    font-weight: bold;
+    width: 0;
+    height: 0;
+    margin-left: 0px;
+    border-radius: 100%;
+    display: inline-block;
+}
+}
+
+
+
+
+@media (min-width:1200px) {
+  body {background-color: #e5e4e2;}
+div#grid{font-size:100px;
+          color: #1b03a3;
+         }
+  div.fri {color: #2204cc;}
+  
+  div.month{font-size: 120px;
+            color:#2204cc;
+            margin: 70px;}
+  div#M{ color: #2204cc; }
+  div#T{ color: #2204cc; }
+  div#W{ color: #2204cc; }
+  div#TR{ color: #2204cc; }
+  div#F{ color: #2204cc; }
+  div#SA{ color: #2204cc; }
+  div#S{ color: #2204cc; }
+  div.nextmonth { margin: 200px;
+    color:#2204cc; }
+  a {color:#1b03a3;}
+  a:hover { color: #e4fc5c; }
+  div.fri::after {
+    content: '.';
+    font-size:90px;
+    font-weight: bold;
+    /*background: #2204cc;*/
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+    border-radius: 50%;
+    display: inline-block;
+}
+div#F::after {
+    content: '.';
+    font-size:90px;
+    font-weight: bold;
+/*    background: #2204cc;*/
+    width: 10px;
+    height: 10px;
+    margin-left: 0px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+}
+
+
+
+
+
+.month {
+   margin: 100px;
+   font-family: Helvetica, sans-serif;
+   font-weight: bolder;
+   font-size: 120px;
+  	
+  	color: #2204cc;
+}
+
+
+.fri{
+  color: #2204cc;
+
+}
+
+
+#grid {
+  margin: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: repeat(auto-fill,  minmax(100px, 1fr));
+  height: 1100px;
+  grid-gap: 0px;
+  padding: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+
+}
+
+#M {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  color: #2204cc;
+
+}
+
+#T {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  color: #2204cc;
+}
+
+#W {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  color: #2204cc;
+}
+
+#TR {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  color: #2204cc;
+}
+#F {
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+  color: #2204cc;
+}
+#SA {
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+  color: #2204cc;
+}
+#S {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+  color: #2204cc;
+}
+
+
+
+
+#day1 {
+  grid-column:2 / 3;
+  grid-row: 7 / 8;
+}
+
+
+#day2 {
+  grid-column: 2 / 3;
+  grid-row: 8 / 9;
+}
+
+
+#day3 {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#day4 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#day5 {
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+#day6 {
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+}
+#day7 {
+  grid-column: 3 / 4;
+  grid-row: 7 / 8;
+}
+#day8 {
+  grid-column: 3 / 4;
+  grid-row: 8 / 9;
+}
+#day9 {
+  grid-column: 3 / 4;
+  grid-row: 9 / 10;
+}
+
+/*week2*/
+#day10 {
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+}
+
+#day11 {
+  grid-column: 4 / 5;
+  grid-row: 5 / 6;
+}
+#day12 {
+  grid-column: 4 / 5;
+  grid-row: 6 / 7;
+}
+#day13 {
+  grid-column: 4 / 5;
+  grid-row: 7 / 8;
+}
+#day14 {
+  grid-column: 4 / 5;
+  grid-row: 8 / 9;
+}
+#day15 {
+  grid-column: 4 / 5;
+  grid-row: 9 / 10;
+}
+#day16 {
+  grid-column: 4 / 5;
+  grid-row: 10 / 11;
+}
+
+
+/*week3*/
+
+#day17 {
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
+}
+
+#day18 {
+  grid-column: 5 / 6;
+  grid-row: 6 / 7;
+}
+
+#day19 {
+  grid-column: 5 / 6;
+  grid-row: 7 / 8;
+}
+
+#day20 {
+  grid-column: 5 / 6;
+  grid-row: 8 / 9;
+}
+
+#day21 {
+  grid-column: 5 / 6;
+  grid-row: 9 / 10;
+}
+
+#day22 {
+  grid-column: 5 / 6;
+  grid-row: 10 / 11;
+}
+
+#day23 {
+  grid-column: 5 / 6;
+  grid-row: 11 / 12;
+}
+
+
+
+/*week4*/
+
+#day24 {
+  grid-column: 6 / 7;
+  grid-row: 6 / 7;
+}
+
+#day25 {
+  grid-column: 6 / 7;
+  grid-row: 7 / 8;
+}
+
+#day26 {
+  grid-column: 6 / 7;
+  grid-row: 8 / 9;
+}
+#day27 {
+  grid-column: 6 / 7;
+  grid-row: 9 / 10;
+}
+
+#day28 {
+  grid-column: 6 / 7;
+  grid-row: 10 / 11;
+}
+
+#day29 {
+  grid-column: 6 / 7;
+  grid-row: 11 / 12;
+}
+
+.nextmonth {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: right; 
+  margin: 100px;
+  color: #2204cc;
+  font-weight: bolder;
+}
+
+
