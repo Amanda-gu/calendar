@@ -1,0 +1,68 @@
+body {
+	font-family: courier, serif;
+	font-size: 19px;
+	line-height: 25px;
+	background-image: url('bg.png');
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.back {
+	font-size: 15px;
+	position: fixed;
+	left: 10%;
+	top: 5%;
+
+}
+
+.part1 {
+	width: 350px;
+	height: 350px;
+	position: fixed;
+	left: 10%;
+	top: 10%;
+}
+
+.part2 {
+	width: 350px;
+	height: 350px;
+	position: fixed;
+	left: 38%;
+	top: 53%;
+}
+
+.part3 {
+	width: 350px;
+	height: 350px;
+	position: fixed;
+	right: 10%;
+	top: 10%;
+}
+.tablepic {
+	width: 350px;
+	position: fixed;
+	left: 10%;
+	top: 40%;
+}
+
+.gif1 {
+	border-style: none;
+	width: 350px;
+	height: 300px;
+	position: fixed;
+	left: 38%;
+	top: 10%;
+}
+.gif2 {
+	border-style: none;
+	height: 350px;
+	position: fixed;
+	right: 10%;
+	top: 50%;
+}

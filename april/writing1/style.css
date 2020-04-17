@@ -78,7 +78,7 @@ a:visited {
 	opacity: 0;
 
 	animation-name: start;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-delay:0s;
     animation-iteration-count: 1;
 
@@ -109,7 +109,7 @@ a:visited {
 	opacity: 0;
 	animation-name: one;
     animation-duration: 13s;
-    animation-delay:25s;
+    animation-delay:20s;
     animation-iteration-count: 1;
 }
 
@@ -136,7 +136,7 @@ a:visited {
 	opacity: 0;
 	animation-name: two;
     animation-duration: 10s;
-    animation-delay:35s;
+    animation-delay:2s;
     animation-iteration-count: 1;
 
 }
