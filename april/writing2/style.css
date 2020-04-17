@@ -1,8 +1,9 @@
 body {
 	font-family: courier, serif;
-	font-size: 19px;
-	line-height: 25px;
+	font-size: 12px;
+	line-height: 20px;
 	background-image: url('bg.png');
+
 }
 
 a:link {
@@ -13,8 +14,9 @@ a:visited {
 	color: black;
 }
 
+
 .back {
-	font-size: 15px;
+	font-size: 12px;
 	position: fixed;
 	left: 10%;
 	top: 5%;
@@ -22,47 +24,72 @@ a:visited {
 }
 
 .part1 {
-	width: 350px;
-	height: 350px;
-	position: fixed;
+	width: 200px;
+	height: 200px;
+	font-size: 15px;
+	line-height: 24px;
+	position: absolute;
 	left: 10%;
-	top: 10%;
+	top: 30%;
+	z-index: 100;
 }
 
 .part2 {
-	width: 350px;
-	height: 350px;
+	width: 300px;
+	height: 300px;
 	position: fixed;
-	left: 38%;
-	top: 53%;
+	left: 40%;
+	top: 50%;
+	z-index: 100;
 }
 
 .part3 {
-	width: 350px;
+	width: 200px;
 	height: 350px;
+	font-size: 15px;
+	line-height: 24px;
 	position: fixed;
 	right: 10%;
 	top: 10%;
+	z-index: 100;
 }
 .tablepic {
-	width: 350px;
+	width: 150px;
 	position: fixed;
-	left: 10%;
-	top: 40%;
+	left: 15%;
+	top: 35%;
+	z-index: 10;
+}
+
+.tablepic:hover {
+	z-index: 50;
+	opacity: 0.2;
 }
 
 .gif1 {
 	border-style: none;
-	width: 350px;
-	height: 300px;
+	width: 230px;
+/*	height: 300px;*/
 	position: fixed;
-	left: 38%;
-	top: 10%;
+	right: 5%;
+	top: 25%;
+	z-index: 100;
 }
+.gif1:hover {
+	z-index: 50;
+	opacity: 0.2;
+}
+
 .gif2 {
 	border-style: none;
-	height: 350px;
+	height: 200px;
 	position: fixed;
-	right: 10%;
-	top: 50%;
+	left: 45%;
+	top: 35%;
+	z-index: 100;
+}
+
+.gif2:hover {
+	z-index: 50;
+	opacity: 0.2;
 }
