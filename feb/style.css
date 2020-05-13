@@ -76,6 +76,14 @@ div#F::after {
     border-radius: 100%;
     display: inline-block;
 }
+.nextmonth {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: right; 
+  margin: 70px;
+  color: #2204cc;
+  font-weight: bolder;
+}
 }
 
 
@@ -124,6 +132,14 @@ div#F::after {
     margin-left: 0px;
     border-radius: 100%;
     display: inline-block;
+}
+.nextmonth {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: right; 
+  margin: 70px;
+  color: #2204cc;
+  font-weight: bolder;
 }
 }
 
@@ -175,7 +191,14 @@ div#F::after {
     border-radius: 100%;
     display: inline-block;
 }
-
+.nextmonth {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  text-align: right; 
+  margin: 70px;
+  color: #2204cc;
+  font-weight: bolder;
+}
 }
 
 
@@ -400,13 +423,13 @@ div#F::after {
   grid-row: 11 / 12;
 }
 
-.nextmonth {
+/*.nextmonth {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
   text-align: right; 
   margin: 70px;
   color: #2204cc;
   font-weight: bolder;
-}
+}*/
 
 
