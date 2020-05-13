@@ -33,18 +33,18 @@ div#F::after {
 
 @media (max-width:670px) {
   body {background-color: #8b008b;}
-  div#grid{font-size:25px;
+  div#grid{font-size:30px;
           color: white;
-          height:400px;}
+          height:550px;}
   div.fri {color: #eecee9;}
   div#grid{display: grid;
         grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-        grid-template-rows: repeat(auto-fill,  minmax(30px, 1fr));
-        margin: 25px;
+        grid-template-rows: repeat(auto-fill,  minmax(50px, 1fr));
+        margin: 30px;
         color:white;}
   div.month{font-size: 50px;
             color:#eecee9;
-            margin: 25px;}
+            margin: 30px;}
   div#M{ color: #eecee9; }
   div#T{ color: #eecee9; }
   div#W{ color: #eecee9; }
@@ -52,7 +52,7 @@ div#F::after {
   div#F{ color: #eecee9; }
   div#SA{ color: #eecee9; }
   div#S{ color: #eecee9; }
-  div.nextmonth { margin: 70px;
+  div.nextmonth { margin: 30px;
                   color:#eecee9; }
   a {color: white;}
   a:hover { color: #071827; }
@@ -76,6 +76,14 @@ div#F::after {
     border-radius: 100%;
     display: inline-block;
 }
+.lastandnext {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: right;
+  margin: 30px;
+  color: #2204cc;
+  font-weight: bolder;
+}
 }
 
 
@@ -88,11 +96,11 @@ div#F::after {
   div#grid{display: grid;
   grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   grid-template-rows: repeat(auto-fill,  minmax(54px, 1fr));
-  margin: 60px;
+  margin: 70px;
   color:#e8d7bc;}
   div.month{font-size: 70px;
             color:#f5deb3;
-            margin: 60px;}
+            margin: 70px;}
   div#M{ color: #f5deb3; }
   div#T{ color: #f5deb3; }
   div#W{ color: #f5deb3; }
@@ -100,7 +108,7 @@ div#F::after {
   div#F{ color: #f5deb3; }
   div#SA{ color: #f5deb3; }
   div#S{ color: #f5deb3; }
-  div.nextmonth { margin: 100px;
+  div.nextmonth { margin: 70px;
                   color:#f5deb3; }
   a {color: #e8d7bc;}
   a:hover { color: black; }
@@ -125,6 +133,14 @@ div#F::after {
     border-radius: 100%;
     display: inline-block;
 }
+.lastandnext {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: right;
+  margin: 70px;
+  color: #2204cc;
+  font-weight: bolder;
+}
 }
 
 
@@ -147,8 +163,9 @@ div#grid{font-size:100px;
   div#F{ color: #2204cc; }
   div#SA{ color: #2204cc; }
   div#S{ color: #2204cc; }
-  div.nextmonth { margin: 200px;
-    color:#2204cc; }
+  div.nextmonth { margin: 70px;
+    color:#2204cc;
+    font-size: 30px; }
   a {color:#1b03a3;}
   a:hover { color: #e4fc5c; }
   div.fri::after {
@@ -174,6 +191,14 @@ div#F::after {
     display: inline-block;
 }
 
+.lastandnext {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: right;
+  margin: 70px;
+  color: #2204cc;
+  font-weight: bolder;
+}
 }
 
 
@@ -414,7 +439,7 @@ div#F::after {
   grid-column: 7 / 8;
   grid-row: 9 / 10;
 }
-
+/*
 .lastandnext {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
@@ -422,6 +447,6 @@ div#F::after {
   margin: 100px;
   color: #2204cc;
   font-weight: bolder;
-}
+}*/
 
 
